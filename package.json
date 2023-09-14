@@ -1,0 +1,23 @@
+{
+  "name": "portfolio.html",
+  "version": "1.0.0",
+  "description": "a portfolio to demonstrate my web dev journey",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "bootstrap-v5.3",
+    "sass"
+  ],
+  "author": "Alyson Franco",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.66.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.10.5"
+  }
+}
