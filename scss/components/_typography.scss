@@ -48,7 +48,14 @@ body {
         &--banner {
             font-weight: 700;
             color: $cyan-darker;
-            font-size: 2.5rem;
+
+            @include media-breakpoint-up(xs) {
+                font-size: 2.5rem;
+            }
+
+            @include media-breakpoint-up(sm) {
+                font-size: 3rem;
+            }
 
             @include media-breakpoint-up(md) {
                 font-size: 4rem;
@@ -57,6 +64,7 @@ body {
             @include media-breakpoint-up(lg) {
                 font-size: 5rem;
             }
+
         }
     }
     
@@ -66,6 +74,10 @@ body {
             font-weight: 400;
             text-transform: uppercase;
             color: $cyan-gray;
+
+            @include media-breakpoint-up(sm) {
+                font-size: 1rem;
+            }
 
             @include media-breakpoint-up(md) {
                 font-size: 1.1rem;
