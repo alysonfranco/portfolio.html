@@ -14,8 +14,7 @@
     }
 
     #projects {
-        width: 95%;
-
+        
         @include media-breakpoint-up(lg) {
             width: 80%;
         }
