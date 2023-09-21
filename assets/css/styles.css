@@ -12086,9 +12086,6 @@ body {
     padding-right: 2.25rem;
   }
 }
-.project-section #projects {
-  width: 95%;
-}
 @media (min-width: 992px) {
   .project-section #projects {
     width: 80%;
