@@ -1,0 +1,36 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.about-section {
+  @include default-background;
+}
+
+#about {
+  #blurb {
+    padding: 0.75rem 0;
+    color: $cyan-grayer;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-right: 2.25rem;
+  }
+}
+
+#skills {
+  .list-group {
+    .list-group-item {
+      padding: 0.5rem 0;
+      background: rgba($white, 0);
+      color: $cyan-grayer;
+      border-bottom: 0.15rem dashed $cyan-darker;
+    }
+
+    #sass {
+      border-bottom: none;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-left: 2rem;
+  }
+}

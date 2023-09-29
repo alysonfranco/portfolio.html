@@ -1,0 +1,17 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.btn {
+  &--action {
+    background-color: $white;
+    color: $cyan-dark;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+  }
+
+  &--action:hover {
+    background-color: $white;
+    color: $cyan-darker;
+  }
+}

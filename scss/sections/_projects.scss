@@ -1,0 +1,51 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.project-section {
+  @include default-background;
+
+  #project-blurb {
+    padding: 0.75rem 0;
+    color: $cyan-grayer;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-right: 2.25rem;
+  }
+
+  #projects {
+    @include media-breakpoint-up(lg) {
+      width: 80%;
+    }
+
+    .important {
+      transition: 0.3s;
+    }
+
+    .important:hover {
+      transition: 0.3s;
+      text-shadow: 1px 1px 1px $cyan-gray;
+    }
+
+    .repo {
+      padding: 0.5rem;
+
+      @include media-breakpoint-up(lg) {
+        padding: 1rem;
+      }
+
+      .fa-li {
+        color: $cyan-darkest !important;
+        font-size: 1.5rem;
+
+        @include media-breakpoint-up(lg) {
+          font-size: 2rem;
+        }
+      }
+
+      p {
+        color: $cyan-grayer !important;
+      }
+    }
+  }
+}

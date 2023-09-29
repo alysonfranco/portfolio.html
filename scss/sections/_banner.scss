@@ -1,0 +1,11 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+#banner {
+  @include gradient;
+  padding: 10rem 0 5rem 0;
+
+  @include media-breakpoint-up(md) {
+    padding: 15rem 0 10rem 0;
+  }
+}

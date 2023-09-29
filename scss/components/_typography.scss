@@ -1,0 +1,107 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+body {
+  font-family: "Courier Prime", monospace;
+  font-size: 1.1rem;
+}
+
+.important {
+  font-weight: 700 !important;
+  color: $cyan-darkest !important;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.important:hover {
+  color: $cyan-gray !important;
+}
+
+.symbol {
+  color: $cyan-darkest !important;
+  font-size: 1.5rem;
+
+  @include media-breakpoint-up(md) {
+    font-size: 2rem;
+  }
+}
+
+.display-6 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-bottom: 0.1rem solid $cyan-darker;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.75rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    font-size: 2rem;
+  }
+}
+
+#banner {
+  .display-2 {
+    &--banner {
+      font-weight: 700;
+      color: $cyan-darker;
+
+      @include media-breakpoint-up(xs) {
+        font-size: 2.5rem;
+      }
+
+      @include media-breakpoint-up(sm) {
+        font-size: 3rem;
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size: 4rem;
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: 5rem;
+      }
+    }
+  }
+
+  .lead {
+    &--banner {
+      font-size: 0.9rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: $cyan-gray;
+
+      @include media-breakpoint-up(sm) {
+        font-size: 1rem;
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size: 1.1rem;
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+
+.about-section {
+  #skills .lead {
+    font-size: 1rem;
+    font-weight: bold;
+
+    @include media-breakpoint-up(md) {
+      font-size: 1.25rem;
+    }
+
+    .caption {
+      font-size: 0.5rem;
+      color: $cyan-grayer !important;
+
+      @include media-breakpoint-up(md) {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}

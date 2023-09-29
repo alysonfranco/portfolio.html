@@ -1,0 +1,14 @@
+@use "custom";
+
+// importing components
+@use "components/buttons";
+@use "components/animations";
+@use "components/mixins";
+@use "components/typography";
+
+// importing sections
+@use "sections/navbar";
+@use "sections/banner";
+@use "sections/about";
+@use "sections/projects";
+@use "sections/footer";

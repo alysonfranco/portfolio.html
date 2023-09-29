@@ -1,0 +1,37 @@
+// Include any default variable overrides here (though functions won't be available)
+$card-height: 100%;
+
+// Theme Colors
+$cyan: #70dbdb;
+$cyan-light: #b6e1e1;
+$cyan-dark: #56a8a8;
+$cyan-darker: #2f5c5c;
+$cyan-darkest: #1d3838;
+$cyan-gray: #4a5c5c;
+$cyan-grayer: #2b3636;
+$green: #2e9413;
+
+// White and Gray colors
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$primary: $cyan;
+$secondary: $cyan-darker;
+$info: $cyan-dark;
+$light: $cyan-light;
+$dark: $cyan-gray;
+$success: $green;
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Then add additional custom code here

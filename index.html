@@ -1,0 +1,228 @@
+<!--make protfolio websote with bootstrap-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- driver code to allow website to load without caching -->
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <!-- /end of driver code -->
+    <title>Franco's Folio</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body class="min-vh-100">
+    <!-- navigation header -->
+    <nav class="menu navbar navbar-expand-lg navbar-light fixed-top shadow p-lg-3 p-md-2">
+        <div class="container-lg">
+            <a class="navbar-brand" href="index.html">Franco's Folio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link px-lg-4" href="#projects">Projects</a>
+                    <a class="nav-link important" href="./assets/attachments/Resume.pdf"
+                        target="_blank"><strong>Resume</strong></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- /navigation header -->
+
+    <!-- Banner -->
+    <div id="banner" class="banner-section">
+        <div class="container text-center py-3">
+            <h1 class="display-2">
+                <span class="display-2--banner">Alyson Franco</span>
+            </h1>
+            <p class="lead">
+                <span class="lead--banner">Information Technology Student</span>
+            </p>
+            <!-- <div class="pt-5">
+                    <a href="./assets/attachments/Resume.pdf" target="_blank" class="btn btn-light text-center btn--action">Resume [add hover animation of btn pulse] </a>
+                </div> -->
+        </div>
+    </div>
+    <!-- Banner -->
+
+    <!-- CONTENT -->
+
+    <!-- About Section -->
+    <div class="about-section p-lg-3 p-md-2">
+        <div class="container-lg py-2">
+            <div class="row">
+                <div id="about" class="col-lg-6 pb-5">
+                    <h1 class="display-6 text-secondary py-2">About Me</h1>
+                    <div id="blurb">
+                        <p>
+                            Hi! I'm Alyson, and I'm an Information Technology student at the
+                            University of Central Florida. I'm also an aspiring web
+                            developer and a plant enthusiast. I took an internet
+                            applications class in the Fall of 2022 and have since been
+                            honing my web development skills. Interestingly, the first two
+                            websites I developed were about plants. I took a break from web
+                            development soon after to focus more on school and my houseplant
+                            hobby, but now I'm back on the grind. I'm building this
+                            portfolio website to help me improve my understanding of HTML,
+                            CSS, Bootstrap, and Sass.
+                        </p>
+                        <p>
+                            Over the Summer of 2023, I began to build a blog website that I
+                            would use to document my journey as a plant enthusiast and
+                            showcase some of my favorite plants. While it is still in
+                            development as I improve my skills, I hope to publish the first
+                            iteration of my blog, Franco's Flora&trade;, by the end of 2023.
+                        </p>
+                    </div>
+                    <!-- <a href="#" class="btn btn-light text-center btn--action disabled">Coming Soon...</a>  -->
+                </div>
+
+                <!-- Skills part of the about section -->
+                <div id="skills" class="col-lg-6 pb-5">
+                    <h1 class="display-6 text-secondary py-2">Skills</h1>
+                    <ul class="list-group list-group-flush">
+                        <li id="html" class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <div class="lead">HTML</div>
+                                <span><small class="caption">Proficient</small></span>
+                            </div>
+                            <i class="symbol fa-brands fa-html5"></i>
+                        </li>
+                        <li id="css" class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <div class="lead">CSS</div>
+                                <span><small class="caption">Proficient</small></span>
+                            </div>
+                            <i class="symbol fa-brands fa-css3-alt"></i>
+                        </li>
+                        <li id="bootstrap" class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <div class="lead">Bootstrap</div>
+                                <span><small class="caption">Intermediate</small></span>
+                            </div>
+                            <i class="symbol fa-brands fa-bootstrap"></i>
+                        </li>
+                        <li id="sql" class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <div class="lead">MySql</div>
+                                <span><small class="caption">Intermediate</small></span>
+                            </div>
+                            <i class="symbol fa-solid fa-database"></i>
+                        </li>
+                        <li id="js" class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <div class="lead">Snowflake Data Cloud</div>
+                                <span><small class="caption">Intermediate</small></span>
+                            </div>
+                            <i class="symbol fa-solid fa-snowflake"></i>
+                        </li>
+                        <li id="sass" class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <div class="lead">Sass</div>
+                                <span><small class="caption">Beginner</small></span>
+                            </div>
+                            <i class="symbol fa-brands fa-sass"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /About Section-->
+
+    <!-- Projects -->
+    <div class="project-section p-lg-3 p-md-2">
+        <div class="container-lg">
+            <h1 class="display-6 text-secondary">Projects</h1>
+            <div id="project-blurb">
+                <p>
+                    These projects will be a mix of personal and school projects. Right
+                    now, it consists mostly of school projects, but it will change in
+                    the future as I have a few personal projects in mind :&#41;. I'm
+                    still trying to get used to GitHub and I will update this section
+                    accordingly.
+                </p>
+            </div>
+            <div id="projects" class="container pb-1">
+                <ul class="fa-ul">
+                    <li class="repo">
+                        <span class="fa-li"><i class="fa-solid fa-code"></i></span>
+                        <h5>
+                            <a class="important" href="https://github.com/alysonfranco/Web-Development"
+                                target="_blank">Web Development</a>
+                        </h5>
+                        <p>
+                            This repository contains my first two web development projects
+                            that I worked on during my internet applications class in the
+                            Fall of 2022. I plan to update this repo with other small web
+                            dev projects.
+                        </p>
+                    </li>
+                    <li class="repo">
+                        <span class="fa-li"><i class="fa-solid fa-database"></i></span>
+                        <h5>
+                            <a class="important" href="https://github.com/alysonfranco/Databases"
+                                target="_blank">Databases</a>
+                        </h5>
+                        <p>
+                            This repository contains a couple of databases I worked on in my
+                            classes. I plan to update this repo with other small database
+                            projects.
+                        </p>
+                    </li>
+                    <li class="repo">
+                        <span class="fa-li"><i class="fa-solid fa-leaf"></i></span>
+                        <h5>
+                            <a class="important" href="https://github.com/alysonfranco/francosflora.html"
+                                target="_blank">Franco's Flora</a>
+                        </h5>
+                        <p>
+                            This repository contains the vision for my blog website.
+                            Unfinished, of course, but I will apply the skills I learned
+                            while making this portfolio to the creation of this website.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- /Projects -->
+
+    <!-- /CONTENT -->
+
+    <!-- footer -->
+    <footer id="footer" class="footer-section p-lg-3 p-md-2 position-absolute">
+        <div class="footer container-lg text-center">
+            <div class="socials pb-md-2 pb-lg-3">
+                <span>
+                    <a class="important" href="https://github.com/alysonfranco" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a class="important" href="https://www.linkedin.com/in/alysonfranco/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a class="important" href="https://www.instagram.com/francos.flora/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </span>
+            </div>
+            <div class="text-end">
+                <span class="copyright"><small>&copy;2023 Franco's Folio</small></span>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
+
+    <script src="./assets/js/bootstrap.js"></script>
+</body>
+
+</html>
