@@ -12011,7 +12011,7 @@ body {
   transition: 0.3s;
 }
 
-.banner-section {
+#banner {
   background: linear-gradient(to top, rgba(86, 168, 168, 0.75), rgba(112, 219, 219, 0.75), rgba(182, 225, 225, 0.75), white);
   padding: 10rem 0 5rem 0;
 }
@@ -12020,9 +12020,12 @@ body {
     padding: 15rem 0 10rem 0;
   }
 }
+.banner-section a {
+  color: #4a5c5c;
+}
 
 .about-section {
-  background: rgba(86, 168, 168, 0.75);
+  background: rgba(182, 225, 225, 0.95);
 }
 
 #about #blurb {
@@ -12041,7 +12044,7 @@ body {
   color: #2b3636;
   border-bottom: 0.15rem dashed #2f5c5c;
 }
-#skills .list-group #sass {
+#skills .list-group :last-child {
   border-bottom: none;
 }
 @media (min-width: 992px) {
@@ -12051,7 +12054,7 @@ body {
 }
 
 .project-section {
-  background: rgba(86, 168, 168, 0.75);
+  background: rgba(182, 225, 225, 0.95);
 }
 .project-section #project-blurb {
   padding: 0.75rem 0;
@@ -12096,7 +12099,7 @@ body {
 }
 
 .footer-section {
-  background: rgba(86, 168, 168, 0.75);
+  background: rgba(182, 225, 225, 0.95);
   width: 100%;
 }
 .footer-section .socials a {
