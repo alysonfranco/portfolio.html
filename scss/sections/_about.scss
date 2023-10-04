@@ -25,10 +25,9 @@
       border-bottom: 0.15rem dashed $cyan-darker;
     }
 
-    
-    // :last-child{
-    //   border-bottom: none;
-    // }
+    :last-child {
+      border-bottom: none;
+    }
   }
 
   @include media-breakpoint-up(lg) {
