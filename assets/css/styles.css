@@ -12011,17 +12011,14 @@ body {
   transition: 0.3s;
 }
 
-#banner {
-  background: linear-gradient(to top, rgba(86, 168, 168, 0.75), rgba(112, 219, 219, 0.75), rgba(182, 225, 225, 0.75), white);
+.banner-section {
+  background: linear-gradient(to top, rgba(182, 225, 225, 0.95), white);
   padding: 10rem 0 5rem 0;
 }
 @media (min-width: 768px) {
   .banner-section {
     padding: 15rem 0 10rem 0;
   }
-}
-.banner-section a {
-  color: #4a5c5c;
 }
 
 .about-section {
