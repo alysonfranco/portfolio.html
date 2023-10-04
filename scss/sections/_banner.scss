@@ -1,7 +1,7 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
 
-#banner {
+.banner-section {
   @include gradient;
   padding: 10rem 0 5rem 0;
 
