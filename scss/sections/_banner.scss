@@ -8,4 +8,13 @@
   @include media-breakpoint-up(md) {
     padding: 15rem 0 10rem 0;
   }
+
+  a{
+    color: $cyan-gray;
+  }
+
+  // .glow-animation {
+  //   color: $cyan-gray;
+  //   animation: glow 1.2s infinite alternate;
+  // }
 }
