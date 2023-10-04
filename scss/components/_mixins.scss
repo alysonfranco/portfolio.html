@@ -4,9 +4,9 @@
 @mixin gradient {
   background: linear-gradient(
     to top,
-    rgba($cyan-dark, 0.75),
-    rgba($cyan, 0.75),
-    rgba($cyan-light, 0.75),
+    /*rgba($cyan-dark, 0.75),*/
+    /*rgba($cyan, 0.75),*/
+    rgba($cyan-light, 0.95),
     rgba($white, 1)
   );
 }
@@ -14,13 +14,13 @@
 @mixin gradient-reverse {
   background: linear-gradient(
     to bottom,
-    rgba($cyan-dark, 0.75),
-    rgba($cyan, 0.75),
-    rgba($cyan-light, 0.75),
+    /*rgba($cyan-dark, 0.75),*/
+    /*rgba($cyan, 0.75),*/
+    rgba($cyan-light, 0.95),
     rgba($white, 1)
   );
 }
 
 @mixin default-background {
-  background: rgba($cyan-dark, 0.75);
+  background: rgba($cyan-light, 0.95);
 }
