@@ -11867,6 +11867,14 @@ textarea.form-control-lg {
   color: #2f5c5c;
 }
 
+@keyframes glow {
+  from {
+    text-shadow: 0.2rem 0.2rem 0.1rem #56a8a8;
+  }
+  to {
+    text-shadow: 0.2rem 0.2rem 0.4rem #56a8a8;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -11972,10 +11980,6 @@ body {
   .about-section #skills .lead .caption {
     font-size: 0.75rem;
   }
-}
-
-.social-icon {
-  text-shadow: 0.2rem 0.2rem 0.4rem #56a8a8;
 }
 
 .menu {
@@ -12119,6 +12123,9 @@ body {
 }
 .footer-section .copyright {
   font-size: 0.75rem !important;
+}
+.footer-section .social-icon {
+  animation: glow 1s infinite alternate;
 }
 
 /*# sourceMappingURL=styles.css.map */
