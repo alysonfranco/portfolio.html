@@ -1,11 +1,11 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
 
-// @keyframes glow {
-//   from {
-//     box-shadow: 0 0 1rem -1rem rgba($white, 1);
-//   }
-//   to {
-//     box-shadow: 0 0 1rem 1rem rgba($white, 1);
-//   }
-// }
+@keyframes glow {
+  from {
+    text-shadow: 0.2rem 0.2rem 0.1rem $cyan-dark;
+  }
+  to {
+    text-shadow: 0.2rem 0.2rem 0.4rem $cyan-dark;
+  }
+}
