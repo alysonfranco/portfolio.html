@@ -1,6 +1,11 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Courier Prime", monospace;
   font-size: 1.1rem;
@@ -104,4 +109,8 @@ body {
       }
     }
   }
+}
+
+.icon {
+  text-shadow: 0.2rem 0.2rem 0.4rem $cyan-dark;
 }

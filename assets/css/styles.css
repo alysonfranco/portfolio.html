@@ -11867,6 +11867,11 @@ textarea.form-control-lg {
   color: #2f5c5c;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Courier Prime", monospace;
   font-size: 1.1rem;
@@ -11969,6 +11974,10 @@ body {
   }
 }
 
+.icon {
+  text-shadow: 0.2rem 0.2rem 0.4rem #56a8a8;
+}
+
 .menu {
   font-family: "Courier Prime", monospace;
   background-color: #fff;
@@ -12029,7 +12038,7 @@ body {
 }
 @media (min-width: 992px) {
   #about {
-    padding-right: 2.25rem;
+    padding-right: 2rem;
   }
 }
 
@@ -12099,12 +12108,13 @@ body {
 }
 .footer-section .socials a {
   padding: 1rem;
-  font-size: 1.5rem !important;
+  font-size: 2rem !important;
   transition: 0.3s;
+  text-shadow: 0.2rem 0.2rem 0.4rem #56a8a8;
 }
 @media (min-width: 768px) {
   .footer-section .socials a {
-    font-size: 1.75rem !important;
+    font-size: 2.25rem !important;
   }
 }
 .footer-section .copyright {

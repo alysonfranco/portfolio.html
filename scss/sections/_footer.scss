@@ -7,11 +7,12 @@
 
   .socials a {
     padding: 1rem;
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
     transition: 0.3s;
+    text-shadow: 0.2rem 0.2rem 0.4rem $cyan-dark;
 
     @include media-breakpoint-up(md) {
-      font-size: 1.75rem !important;
+      font-size: 2.25rem !important;
     }
   }
 
