@@ -11876,7 +11876,6 @@ body {
   font-weight: 700 !important;
   color: #1d3838 !important;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .important:hover {
@@ -12007,7 +12006,6 @@ body {
 .menu .navbar-brand,
 .menu .nav-link {
   color: #56a8a8;
-  text-transform: uppercase;
   transition: 0.3s;
 }
 
