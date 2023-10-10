@@ -4,13 +4,3 @@ This website will represent my journey in web development as it will be updated 
 Hope y'all enjoy the journey as much as I do :) <br>
 
 I plan to keep updating this website as I complete more projects and grow my skills.
-
-**Desktop Preview:**
-![Franco's Folio - Desktop Preview](https://github.com/alysonfranco/portfolio.html/assets/101274727/b9e85325-1ac8-4191-8051-517cab01fdb7)<br>
-
-**Mobile Preview:<br>**
-![Franco's Folio - Mobile Preview](https://github.com/alysonfranco/portfolio.html/assets/101274727/145ef531-cc17-48ae-a441-e14e10089c7c)
-
-
-
-
