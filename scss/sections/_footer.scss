@@ -9,7 +9,6 @@
     padding: 1rem;
     font-size: 2rem !important;
     transition: 0.3s;
-    text-shadow: 0.2rem 0.2rem 0.4rem $cyan-dark;
 
     @include media-breakpoint-up(md) {
       font-size: 2.25rem !important;
@@ -20,7 +19,4 @@
     font-size: 0.75rem !important;
   }
 
-  .social-icon {
-    animation: glow 1s infinite alternate;
-  }
 }
