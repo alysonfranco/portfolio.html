@@ -11964,15 +11964,6 @@ body {
     font-size: 1.25rem;
   }
 }
-.about-section #skills .lead .caption {
-  font-size: 0.5rem;
-  color: #2b3636 !important;
-}
-@media (min-width: 768px) {
-  .about-section #skills .lead .caption {
-    font-size: 0.75rem;
-  }
-}
 
 .menu {
   font-family: "Courier Prime", monospace;

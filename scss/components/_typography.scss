@@ -99,14 +99,5 @@ body {
     @include media-breakpoint-up(md) {
       font-size: 1.25rem;
     }
-
-    .caption {
-      font-size: 0.5rem;
-      color: $cyan-grayer !important;
-
-      @include media-breakpoint-up(md) {
-        font-size: 0.75rem;
-      }
-    }
   }
 }
