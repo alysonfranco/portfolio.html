@@ -11956,7 +11956,7 @@ body {
 }
 
 .about-section #skills .lead {
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: bold;
 }
 @media (min-width: 768px) {
